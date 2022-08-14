@@ -46,6 +46,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             jets.append(jetNode3)
         }
         
+        
         let sunMaterial = SCNMaterial()
         sunMaterial.diffuse.contents = UIImage(named: "art.scnassets/sun.jpeg")
         let sun = SCNSphere(radius: 0.8)

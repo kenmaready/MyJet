@@ -14,6 +14,8 @@
 		9B07A00E28A833E1009C56AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B07A00D28A833E1009C56AB /* Assets.xcassets */; };
 		9B07A01128A833E1009C56AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B07A00F28A833E1009C56AB /* LaunchScreen.storyboard */; };
 		9B07A01828A84A14009C56AB /* JetPassOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B07A01728A84A14009C56AB /* JetPassOver.mp3 */; };
+		9B07A01A28A84DD4009C56AB /* Jet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07A01928A84DD4009C56AB /* Jet.swift */; };
+		9B07A01C28A854AF009C56AB /* JetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07A01B28A854AF009C56AB /* JetManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		9B07A00D28A833E1009C56AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B07A01028A833E1009C56AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B07A01728A84A14009C56AB /* JetPassOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JetPassOver.mp3; sourceTree = "<group>"; };
+		9B07A01928A84DD4009C56AB /* Jet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jet.swift; sourceTree = "<group>"; };
+		9B07A01B28A854AF009C56AB /* JetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 		9B07A00328A833DF009C56AB /* MyJet */ = {
 			isa = PBXGroup;
 			children = (
+				9B07A01B28A854AF009C56AB /* JetManager.swift */,
+				9B07A01928A84DD4009C56AB /* Jet.swift */,
 				9B07A00428A833DF009C56AB /* AppDelegate.swift */,
 				9B07A00828A833DF009C56AB /* ViewController.swift */,
 				9B07A00A28A833DF009C56AB /* Main.storyboard */,
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B07A00928A833DF009C56AB /* ViewController.swift in Sources */,
+				9B07A01C28A854AF009C56AB /* JetManager.swift in Sources */,
+				9B07A01A28A84DD4009C56AB /* Jet.swift in Sources */,
 				9B07A00528A833DF009C56AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
